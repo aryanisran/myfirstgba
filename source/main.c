@@ -1,4 +1,4 @@
-#include "Intellisnse.h"
+#include "Intellisense.h"
 
 int main()
 {
