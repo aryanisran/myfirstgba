@@ -42,7 +42,7 @@
                 "command": "C:/mGBA/mGBA.exe -g ${workspaceFolder}/${workspaceFolderBasename}.gba;sleep 5;echo debuggerReady"
             },
             "osx":{
-                "command": "/Users/jamies/mGBA/mGBA.app/Contents/MacOS/mGBA",
+                "command": "C:/Program Files/mGBA/",
                 "args": ["-g", "${workspaceFolder}/${workspaceFolderBasename}.gba"]
             },
             "presentation": {
@@ -59,12 +59,10 @@
                 },
             }
         },
-        {
-            "label": "run",
+            /*"label": "run",
             "type": "shell",
             "isBackground": true,
             "command": "C:/NO$GBADebugger/NO$GBA.exe  ${workspaceFolder}/${workspaceFolderBasename}.elf",
-            "problemMatcher": []
-        }
+            "problemMatcher": []*/
     ]
 }
