@@ -1,9 +1,9 @@
 #pragma once
 
-#ifndef __INTELLISENSE_H__
-#define __INTELLISENSE_H__
+#ifndef __GBA_MACROS_H__
+#define __GBA_MACROS_H__
 
-#if __INTELLISENSE__
+#if __GBA_MACROS__
 #define __attribute__(q)
 #define __builtin_strcmp(a,b) 0
 #define __builtin_strlen(a) 0
@@ -13,4 +13,8 @@
 #define __extension__
 #endif
 
-#endif //__INTELLISENSE_H__
+#ifndef	NULL
+#define	NULL	(void*)0
+#endif
+
+#endif //__GBA_MACROS_H__
