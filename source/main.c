@@ -23,7 +23,6 @@ typedef volatile int32_t		v_int32;
 #define SCREENBUFFER ((v_int16*)(0x06000000))
 #define SCREEN_W 240
 #define SCREEN_H 160
-
 #define REG_VCOUNT (*(v_uint16*)(0x04000006))
 void vsync()
 {
