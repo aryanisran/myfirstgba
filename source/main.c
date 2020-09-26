@@ -1,21 +1,8 @@
 #include "gba_macros.h"
 #include "gba_types.h"
+#include "gba_reg.h"
 #include <stdint.h>
 #include <stdbool.h>
-
-typedef uint8_t		uint8;
-typedef uint16_t	uint16;
-typedef uint32_t	uint32;
-typedef int8_t		int8;
-typedef int16_t		int16;
-typedef int32_t		int32;
-
-typedef volatile uint8_t		v_uint8;
-typedef volatile uint16_t		v_uint16;
-typedef volatile uint32_t		v_uint32;
-typedef volatile int8_t			v_int8;
-typedef volatile int16_t		v_int16;
-typedef volatile int32_t		v_int32;
 
 //define gba memory addresses, refer to https://problemkaputt.de/gbatek.htm#gbamemorymap
 #define REG_DISPLAYCONTROL *((v_uint32*)(0x04000000))
