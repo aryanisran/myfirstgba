@@ -13,6 +13,9 @@
 #define __extension__
 #endif
 
+#define ARM __attribute__((__target__("arm")))
+#define THUMB __attribute__((__target__("thumb")))
+
 #ifndef	NULL
 #define	NULL	(void*)0
 #endif
